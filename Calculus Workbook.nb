@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    168337,       4375]
-NotebookOptionsPosition[    163369,       4279]
-NotebookOutlinePosition[    163975,       4301]
-CellTagsIndexPosition[    163932,       4298]
+NotebookDataLength[    189575,       4929]
+NotebookOptionsPosition[    183017,       4805]
+NotebookOutlinePosition[    183623,       4827]
+CellTagsIndexPosition[    183580,       4824]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -722,7 +722,7 @@ Cell[BoxData[{
              "]"}], ",", "boxes"}], "}"}], "]"}]}], ";", 
        "\[IndentingNewLine]", 
        RowBox[{"DisplayForm", "[", "boxes", "]"}]}]}], "]"}]}], ";"}], 
-  "\n"}], "\[IndentingNewLine]", 
+  "\[IndentingNewLine]"}], "\n", 
  RowBox[{
   RowBox[{
    RowBox[{"dSpecificRules", "=", 
@@ -752,7 +752,7 @@ Cell[BoxData[{
           RowBox[{"a", "^", "x"}], ",", "x"}], "]"}], "/;", 
         RowBox[{"FreeQ", "[", 
          RowBox[{"a", ",", "x"}], "]"}]}]}]}], "}"}]}], ";"}], 
-  "\n"}], "\[IndentingNewLine]", 
+  "\[IndentingNewLine]"}], "\n", 
  RowBox[{
   RowBox[{
    RowBox[{"dConstantRule", "=", 
@@ -762,7 +762,7 @@ Cell[BoxData[{
      RowBox[{"0", "/;", 
       RowBox[{"FreeQ", "[", 
        RowBox[{"c", ",", "x"}], "]"}]}]}]}], ";"}], 
-  "\n"}], "\[IndentingNewLine]", 
+  "\[IndentingNewLine]"}], "\n", 
  RowBox[{
   RowBox[{
    RowBox[{"dLinearityRule", "=", 
@@ -787,7 +787,7 @@ Cell[BoxData[{
           RowBox[{"f", ",", "x"}], "]"}]}], "/;", 
         RowBox[{"FreeQ", "[", 
          RowBox[{"c", ",", "x"}], "]"}]}]}]}], "}"}]}], ";"}], 
-  "\n"}], "\[IndentingNewLine]", 
+  "\[IndentingNewLine]"}], "\n", 
  RowBox[{
   RowBox[{
    RowBox[{"dPowerRule", "=", 
@@ -809,7 +809,7 @@ Cell[BoxData[{
            RowBox[{"a", "-", "1"}], ")"}]}]}], "/;", 
         RowBox[{"FreeQ", "[", 
          RowBox[{"a", ",", "x"}], "]"}]}]}]}], "}"}]}], ";"}], 
-  "\n"}], "\[IndentingNewLine]", 
+  "\[IndentingNewLine]"}], "\n", 
  RowBox[{
   RowBox[{
    RowBox[{"dProductRule", "=", 
@@ -824,7 +824,7 @@ Cell[BoxData[{
       RowBox[{"f", " ", 
        RowBox[{"d", "[", 
         RowBox[{"g", ",", "x"}], "]"}]}]}]}]}], ";"}], 
-  "\n"}], "\[IndentingNewLine]", 
+  "\[IndentingNewLine]"}], "\n", 
  RowBox[{
   RowBox[{
    RowBox[{"dQuotientRule", "=", 
@@ -843,7 +843,7 @@ Cell[BoxData[{
         RowBox[{"f", "*", 
          RowBox[{"d", "[", 
           RowBox[{"g", ",", "x"}], "]"}]}]}], ")"}], "/", 
-      RowBox[{"g", "^", "2"}]}]}]}], ";"}], "\n"}], "\[IndentingNewLine]", 
+      RowBox[{"g", "^", "2"}]}]}]}], ";"}], "\[IndentingNewLine]"}], "\n", 
  RowBox[{
   RowBox[{
    RowBox[{"dInverseFunctionRule", ":=", 
@@ -859,7 +859,7 @@ Cell[BoxData[{
         RowBox[{"Derivative", "[", "1", "]"}], "[", "f", "]"}], "[", 
        RowBox[{
         RowBox[{"InverseFunction", "[", "f", "]"}], "[", "x", "]"}], 
-       "]"}]}]}]}], ";"}], "\n"}], "\[IndentingNewLine]", 
+       "]"}]}]}]}], ";"}], "\[IndentingNewLine]"}], "\n", 
  RowBox[{
   RowBox[{
    RowBox[{"dChainRule", "=", 
@@ -921,7 +921,7 @@ Cell[BoxData[{
          RowBox[{
           RowBox[{"g", "*", 
            RowBox[{"Log", "[", "f", "]"}]}], ",", "x"}], "]"}]}]}]}], "}"}]}],
-    ";"}], "\n"}], "\[IndentingNewLine]", 
+    ";"}], "\[IndentingNewLine]"}], "\n", 
  RowBox[{
   RowBox[{
    RowBox[{"$dRuleNames", "=", 
@@ -931,7 +931,7 @@ Cell[BoxData[{
       "\"\<Linearity Rule\>\"", ",", "\"\<Power Rule\>\"", ",", 
       "\"\<Quotient Rule\>\"", ",", "\"\<Product Rule\>\"", ",", 
       "\"\<Inverse Function Rule\>\"", ",", "\"\<Chain Rule\>\""}], "}"}]}], 
-   ";"}], "\n"}], "\[IndentingNewLine]", 
+   ";"}], "\[IndentingNewLine]"}], "\n", 
  RowBox[{
   RowBox[{
    RowBox[{
@@ -954,7 +954,7 @@ Cell[BoxData[{
            RowBox[{"10", ",", "10"}], "}"}]}], "}"}]}], ",", 
        RowBox[{"CellFrame", "\[Rule]", "False"}], ",", 
        RowBox[{"CellEditDuplicate", "\[Rule]", "False"}]}], "]"}], "]"}]}], 
-   ";"}], "\n"}], "\[IndentingNewLine]", 
+   ";"}], "\[IndentingNewLine]"}], "\n", 
  RowBox[{
   RowBox[{
    RowBox[{
@@ -992,13 +992,13 @@ Cell[BoxData[{
            RowBox[{"10", ",", "10"}], "}"}]}], "}"}]}], ",", 
        RowBox[{"CellFrame", "\[Rule]", "False"}], ",", 
        RowBox[{"CellEditDuplicate", "\[Rule]", "False"}]}], "]"}], "]"}]}], 
-   ";"}], "\n"}], "\[IndentingNewLine]", 
+   ";"}], "\[IndentingNewLine]"}], "\n", 
  RowBox[{
   RowBox[{
    RowBox[{
     RowBox[{"walkD", "::", "differentationError"}], "=", 
     "\"\<Failed to differentiate expression!\>\""}], ";"}], 
-  "\n"}], "\[IndentingNewLine]", 
+  "\[IndentingNewLine]"}], "\n", 
  RowBox[{
   RowBox[{
    RowBox[{
@@ -1053,8 +1053,8 @@ Cell[BoxData[{
            RowBox[{"derivative", ",", "k"}], "]"}]}]}], "]"}], ";", 
        "\[IndentingNewLine]", 
        RowBox[{"D", "[", 
-        RowBox[{"f", ",", "x"}], "]"}]}]}], "]"}]}], ";"}], "\n", 
-  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+        RowBox[{"f", ",", "x"}], "]"}]}]}], "]"}]}], ";"}], 
+  "\[IndentingNewLine]", "\[IndentingNewLine]"}], "\n", 
  RowBox[{
   RowBox[{
    RowBox[{
@@ -1091,7 +1091,7 @@ Cell[BoxData[{
          RowBox[{"\"\<\[Integral]\>\"", ",", "boxes"}], "}"}], "]"}]}], ";", 
       "\[IndentingNewLine]", 
       RowBox[{"DisplayForm", "[", "boxes", "]"}]}], ")"}]}], ";"}], 
-  "\n"}], "\[IndentingNewLine]", 
+  "\[IndentingNewLine]"}], "\n", 
  RowBox[{
   RowBox[{
    RowBox[{"intSpecificRules", "=", 
@@ -1118,7 +1118,7 @@ Cell[BoxData[{
           RowBox[{"a", "^", "x"}], ",", "x"}], "]"}], "/;", 
         RowBox[{"FreeQ", "[", 
          RowBox[{"a", ",", "x"}], "]"}]}]}]}], "}"}]}], ";"}], 
-  "\n"}], "\[IndentingNewLine]", 
+  "\[IndentingNewLine]"}], "\n", 
  RowBox[{
   RowBox[{
    RowBox[{"intConstantRule", "=", 
@@ -1129,7 +1129,7 @@ Cell[BoxData[{
       RowBox[{"c", "*", "x"}], "/;", 
       RowBox[{"FreeQ", "[", 
        RowBox[{"c", ",", "x"}], "]"}]}]}]}], ";"}], 
-  "\n"}], "\[IndentingNewLine]", 
+  "\[IndentingNewLine]"}], "\n", 
  RowBox[{
   RowBox[{
    RowBox[{"intLinearityRule", "=", 
@@ -1154,7 +1154,7 @@ Cell[BoxData[{
           RowBox[{"f", ",", "x"}], "]"}]}], "/;", 
         RowBox[{"FreeQ", "[", 
          RowBox[{"c", ",", "x"}], "]"}]}]}]}], "}"}]}], ";"}], 
-  "\n"}], "\[IndentingNewLine]", 
+  "\[IndentingNewLine]"}], "\n", 
  RowBox[{
   RowBox[{
    RowBox[{"intPowerRule", "=", 
@@ -1185,7 +1185,7 @@ Cell[BoxData[{
           RowBox[{"a", "+", "1"}], ")"}]}], "/;", 
         RowBox[{"FreeQ", "[", 
          RowBox[{"a", ",", "x"}], "]"}]}]}]}], "}"}]}], ";"}], 
-  "\n"}], "\[IndentingNewLine]", 
+  "\[IndentingNewLine]"}], "\n", 
  RowBox[{
   RowBox[{
    RowBox[{"intSubstitutionRule", "=", 
@@ -1339,7 +1339,7 @@ Cell[BoxData[{
            RowBox[{
             RowBox[{"D", "[", 
              RowBox[{"g", ",", "x"}], "]"}], "/", "h"}], "]"}], ",", "x"}], 
-         "]"}]}]}]}], "}"}]}], ";"}], "\n"}], "\[IndentingNewLine]", 
+         "]"}]}]}]}], "}"}]}], ";"}], "\[IndentingNewLine]"}], "\n", 
  RowBox[{
   RowBox[{
    RowBox[{"intProductRule", "=", 
@@ -1358,7 +1358,7 @@ Cell[BoxData[{
           RowBox[{"f", ",", "x"}], "]"}], "*", 
          RowBox[{"d", "[", 
           RowBox[{"g", ",", "x"}], "]"}]}], ",", "x"}], "]"}]}]}]}], ";"}], 
-  "\n"}], "\[IndentingNewLine]", 
+  "\[IndentingNewLine]"}], "\n", 
  RowBox[{
   RowBox[{
    RowBox[{"$intRuleNames", "=", 
@@ -1367,7 +1367,7 @@ Cell[BoxData[{
      "\"\<Specific Rules\>\"", ",", "\"\<Constant Rule\>\"", ",", 
       "\"\<Linearity Rule\>\"", ",", "\"\<Power Rule\>\"", ",", 
       "\"\<Substitution Rule\>\"", ",", "\"\<Product Rule\>\""}], "}"}]}], 
-   ";"}], "\n"}], "\[IndentingNewLine]", 
+   ";"}], "\[IndentingNewLine]"}], "\n", 
  RowBox[{
   RowBox[{
    RowBox[{
@@ -1405,7 +1405,7 @@ Cell[BoxData[{
            RowBox[{"10", ",", "10"}], "}"}]}], "}"}]}], ",", 
        RowBox[{"CellFrame", "\[Rule]", "False"}], ",", 
        RowBox[{"CellEditDuplicate", "\[Rule]", "False"}]}], "]"}], "]"}]}], 
-   ";"}], "\n"}], "\[IndentingNewLine]", 
+   ";"}], "\[IndentingNewLine]"}], "\n", 
  RowBox[{
   RowBox[{
    RowBox[{"walkInt", "::", "integrationError"}], "=", 
@@ -1415,7 +1415,7 @@ Cell[BoxData[{
    RowBox[{
     RowBox[{"walkInt", "::", "differentationError"}], "=", 
     "\"\<Failed to differentiate expression!\>\""}], ";"}], 
-  "\n"}], "\[IndentingNewLine]", 
+  "\[IndentingNewLine]"}], "\n", 
  RowBox[{
   RowBox[{
    RowBox[{"walkInt", "[", 
@@ -4275,6 +4275,532 @@ Cell[BoxData[
   DefaultBaseStyle->{FontFamily -> "Times", "Graphics3D"}}]], "Output",
  CellChangeTimes->{3.842337903682398*^9},
  CellLabel->"Out[58]=",ExpressionUUID->"46aebecf-a5a7-40e3-83a9-fb0dabaf4329"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Integrate", "[", 
+  RowBox[{
+   RowBox[{"x", "*", 
+    RowBox[{"(", 
+     SuperscriptBox[
+      RowBox[{"Sec", "[", "x", "]"}], "2"], ")"}]}], ",", "x"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.842553350234273*^9, 3.842553399204644*^9}, {
+  3.8425534310364122`*^9, 3.8425534506408305`*^9}, {3.8425534859355955`*^9, 
+  3.8425534986768627`*^9}, {3.8425535367101936`*^9, 3.8425535389506073`*^9}},
+ CellLabel->"In[67]:=",ExpressionUUID->"3fd63d19-b492-40f9-954f-de7439e799f6"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Log", "[", 
+   RowBox[{"Cos", "[", "x", "]"}], "]"}], "+", 
+  RowBox[{"x", " ", 
+   RowBox[{"Tan", "[", "x", "]"}]}]}]], "Output",
+ CellChangeTimes->{3.842553399786881*^9, 3.842553438871524*^9, 
+  3.842553498974489*^9, 3.842553539228545*^9},
+ CellLabel->"Out[67]=",ExpressionUUID->"6a3403de-c698-417c-bb2d-b664eafbfe3f"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"TrigFactor", "[", 
+  RowBox[{
+   RowBox[{"Log", "[", 
+    RowBox[{"Cos", "[", "x", "]"}], "]"}], "+", 
+   RowBox[{"x", " ", 
+    RowBox[{"Tan", "[", "x", "]"}]}]}], "]"}]], "Input",
+ NumberMarks->False,
+ CellLabel->"In[64]:=",ExpressionUUID->"f4490b36-9c43-4f62-86d5-1f40c0d4f260"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Sec", "[", "x", "]"}], " ", 
+  RowBox[{"(", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"Cos", "[", "x", "]"}], " ", 
+     RowBox[{"Log", "[", 
+      RowBox[{"Cos", "[", "x", "]"}], "]"}]}], "+", 
+    RowBox[{"x", " ", 
+     RowBox[{"Sin", "[", "x", "]"}]}]}], ")"}]}]], "Output",
+ CellChangeTimes->{3.8425535059270864`*^9},
+ CellLabel->"Out[64]=",ExpressionUUID->"293c9709-e30f-4ef5-888b-312163d4c726"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Simplify", "[", 
+  RowBox[{
+   RowBox[{"Sec", "[", "x", "]"}], " ", 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"Cos", "[", "x", "]"}], " ", 
+      RowBox[{"Log", "[", 
+       RowBox[{"Cos", "[", "x", "]"}], "]"}]}], "+", 
+     RowBox[{"x", " ", 
+      RowBox[{"Sin", "[", "x", "]"}]}]}], ")"}]}], "]"}]], "Input",
+ NumberMarks->False,
+ CellLabel->"In[65]:=",ExpressionUUID->"cf64f89d-6f2e-4a8d-8ab4-aa3ceeba1f7f"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Log", "[", 
+   RowBox[{"Cos", "[", "x", "]"}], "]"}], "+", 
+  RowBox[{"x", " ", 
+   RowBox[{"Tan", "[", "x", "]"}]}]}]], "Output",
+ CellChangeTimes->{3.8425535081751995`*^9},
+ CellLabel->"Out[65]=",ExpressionUUID->"608d7ede-0629-4b3d-b233-7d0d7fd9f80f"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"-", 
+  RowBox[{"Cos", "[", "x", "]"}]}]], "Input",
+ CellChangeTimes->{{3.8425535126232405`*^9, 3.8425535134517355`*^9}},
+ CellLabel->"In[66]:=",ExpressionUUID->"4bdc9787-d5d6-432d-9183-4757ef4d27a8"],
+
+Cell[BoxData[
+ RowBox[{"-", 
+  RowBox[{"Cos", "[", "x", "]"}]}]], "Output",
+ CellChangeTimes->{3.8425535138385115`*^9},
+ CellLabel->"Out[66]=",ExpressionUUID->"17ed0307-d6fb-4a68-a068-29c6a3703dd0"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Simplify", "[", 
+  RowBox[{
+   RowBox[{"Log", "[", 
+    RowBox[{"Cos", "[", "x", "]"}], "]"}], "+", 
+   RowBox[{"x", " ", 
+    RowBox[{"Tan", "[", "x", "]"}]}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.842553552655918*^9, 3.842553553727256*^9}},
+ CellLabel->"In[69]:=",ExpressionUUID->"32a93fcb-28a6-49c4-8358-7f728976edd1"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Log", "[", 
+   RowBox[{"Cos", "[", "x", "]"}], "]"}], "+", 
+  RowBox[{"x", " ", 
+   RowBox[{"Tan", "[", "x", "]"}]}]}]], "Output",
+ CellChangeTimes->{3.8425535540682526`*^9},
+ CellLabel->"Out[69]=",ExpressionUUID->"a9e03bd5-4854-4644-9fa3-ae0f2e5eb058"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  SuperscriptBox["Sec", "2"], "[", "x", "]"}]], "Input",
+ CellChangeTimes->{{3.842553610843136*^9, 3.8425536134090233`*^9}},
+ CellLabel->"In[70]:=",ExpressionUUID->"6e0209ee-aa47-4817-99fb-71ad8afdf3e6"],
+
+Cell[BoxData[
+ RowBox[{
+  SuperscriptBox["Sec", "2"], "[", "x", "]"}]], "Output",
+ CellChangeTimes->{3.842553613749506*^9},
+ CellLabel->"Out[70]=",ExpressionUUID->"263db56d-282d-499d-bada-af23b84f2f4c"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"WalkIntegrate", "[", 
+  RowBox[{"x", "*", 
+   SuperscriptBox[
+    RowBox[{"Sec", "[", "x", "]"}], "2"]}], "]"}]], "Input",
+ CellChangeTimes->{{3.8425536314550514`*^9, 3.8425536704919877`*^9}},
+ CellLabel->"In[74]:=",ExpressionUUID->"87b55585-432a-4b09-834c-245f23791809"],
+
+Cell[BoxData[
+ StyleBox[
+  FormBox[
+   StyleBox[GridBox[{
+      {
+       StyleBox[GridBox[{
+          {
+           StyleBox[
+            StyleBox[
+             TemplateBox[{"\"Take the integral:\""},
+              "RowDefault"],
+             StripOnInput->False,
+             LineColor->GrayLevel[0.3],
+             FrontFaceColor->GrayLevel[0.3],
+             BackFaceColor->GrayLevel[0.3],
+             GraphicsColor->GrayLevel[0.3],
+             FontColor->GrayLevel[0.3]],
+            LineIndent->0,
+            LinebreakAdjustments->{1, 89, 100, 0, 100}]},
+          {
+           RowBox[{"\[Integral]", 
+            RowBox[{
+             RowBox[{"x", " ", 
+              RowBox[{
+               SuperscriptBox["sec", "2"], "(", "x", ")"}]}], 
+             RowBox[{"\[DifferentialD]", "x"}]}]}]}
+         },
+         AllowScriptLevelChange->False,
+         DefaultBaseStyle->"Column",
+         GridBoxAlignment->{"Columns" -> {{Left}}},
+         GridBoxItemSize->{
+          "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+         GridBoxSpacings->{"Columns" -> {{None}}, "Rows" -> {{0.5}}}], 
+        "Column"]},
+      {
+       StyleBox[GridBox[{
+          {
+           StyleBox[
+            StyleBox[
+             TemplateBox[{"\"For \"", "\"the \"", "\"integrand \"", 
+               TemplateBox[{
+                 RowBox[{"x", " ", 
+                   RowBox[{
+                    SuperscriptBox["sec", "2"], "(", "x", ")"}]}], "\",\"", 
+                 "\" \""}, "RowDefault"], "\"integrate \"", "\"by \"", 
+               "\"parts, \"", 
+               TemplateBox[{
+                 RowBox[{
+                   RowBox[{"\[Integral]", 
+                    RowBox[{"f", 
+                    RowBox[{"\[DifferentialD]", "g"}]}]}], "\[LongEqual]", 
+                   RowBox[{
+                    RowBox[{"f", " ", "g"}], "-", 
+                    RowBox[{"\[Integral]", 
+                    RowBox[{"g", 
+                    RowBox[{"\[DifferentialD]", "f"}]}]}]}]}], "\",\"", 
+                 "\" \""}, "RowDefault"], "\"where \"", "\"\\n \"", 
+               TemplateBox[{
+                 RowBox[{"f", "\[LongEqual]", "x"}], "\",\"", "\" \"", 
+                 "\" \"", "\" \"", "\" \""}, "RowDefault"], 
+               TemplateBox[{
+                 TemplateBox[{
+                   RowBox[{
+                    RowBox[{"\[DifferentialD]", "g"}], "\[LongEqual]", 
+                    RowBox[{
+                    SuperscriptBox["sec", "2"], "(", "x", ")"}]}], 
+                   "\"\[ThinSpace]\""}, "RowDefault"], 
+                 RowBox[{"\[DifferentialD]", "x"}], "\",\"", "\"\\n\"", 
+                 TemplateBox[{
+                   RowBox[{
+                    RowBox[{"\[DifferentialD]", "f"}], "\[LongEqual]", 
+                    "\"\""}], "\"\[ThinSpace]\""}, "RowDefault"], 
+                 TemplateBox[{
+                   RowBox[{"\[DifferentialD]", "x"}]}, "RowDefault"], "\",\"",
+                  "\" \"", "\" \"", "\" \"", "\" \"", "\" \""}, "RowDefault"], 
+               TemplateBox[{
+                 RowBox[{"g", "\[LongEqual]", 
+                   RowBox[{"tan", "(", "x", ")"}]}], "\":\""}, "RowDefault"]},
+              "RowDefault"],
+             StripOnInput->False,
+             LineColor->GrayLevel[0.3],
+             FrontFaceColor->GrayLevel[0.3],
+             BackFaceColor->GrayLevel[0.3],
+             GraphicsColor->GrayLevel[0.3],
+             FontColor->GrayLevel[0.3]],
+            LineIndent->0,
+            LinebreakAdjustments->{1, 89, 100, 0, 100}]},
+          {
+           TemplateBox[{"\" \"", "\"\[LongEqual] \"", 
+             RowBox[{
+               RowBox[{"x", " ", 
+                 RowBox[{"tan", "(", "x", ")"}]}], "-", 
+               RowBox[{
+                 RowBox[{"\[Integral]", 
+                   RowBox[{
+                    RowBox[{"tan", "(", "x", ")"}], 
+                    RowBox[{"\[DifferentialD]", "x"}]}]}]}]}]},
+            "RowDefault"]}
+         },
+         AllowScriptLevelChange->False,
+         DefaultBaseStyle->"Column",
+         GridBoxAlignment->{"Columns" -> {{Left}}},
+         GridBoxItemSize->{
+          "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], "Column"]},
+      {
+       StyleBox[GridBox[{
+          {
+           StyleBox[
+            StyleBox[
+             TemplateBox[{"\[NoBreak]", "\"\[NoBreak]\"", 
+               TemplateBox[{"\"Rewrite \"", 
+                 TemplateBox[{
+                   RowBox[{"tan", "(", "x", ")"}], "\" \""}, "RowDefault"], 
+                 "\"as \"", 
+                 TagBox[
+                  FractionBox[
+                   RowBox[{"sin", "(", "x", ")"}], 
+                   RowBox[{"cos", "(", "x", ")"}]], HoldForm]}, "RowDefault"],
+                "\":\""},
+              "RowWithSeparators"],
+             StripOnInput->False,
+             LineColor->GrayLevel[0.3],
+             FrontFaceColor->GrayLevel[0.3],
+             BackFaceColor->GrayLevel[0.3],
+             GraphicsColor->GrayLevel[0.3],
+             FontColor->GrayLevel[0.3]],
+            LineIndent->0,
+            LinebreakAdjustments->{1, 89, 100, 0, 100}]},
+          {
+           TemplateBox[{"\" \"", "\"\[LongEqual] \"", 
+             RowBox[{
+               RowBox[{"x", " ", 
+                 RowBox[{"tan", "(", "x", ")"}]}], "-", 
+               RowBox[{
+                 RowBox[{"\[Integral]", 
+                   RowBox[{
+                    TagBox[
+                    FractionBox[
+                    RowBox[{"sin", "(", "x", ")"}], 
+                    RowBox[{"cos", "(", "x", ")"}]], HoldForm], 
+                    RowBox[{"\[DifferentialD]", "x"}]}]}]}]}]},
+            "RowDefault"]}
+         },
+         AllowScriptLevelChange->False,
+         DefaultBaseStyle->"Column",
+         GridBoxAlignment->{"Columns" -> {{Left}}},
+         GridBoxItemSize->{
+          "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], "Column"]},
+      {
+       StyleBox[GridBox[{
+          {
+           StyleBox[
+            StyleBox[
+             TemplateBox[{"\"For \"", "\"the \"", "\"integrand \"", 
+               TemplateBox[{
+                 TagBox[
+                  FractionBox[
+                   RowBox[{"sin", "(", "x", ")"}], 
+                   RowBox[{"cos", "(", "x", ")"}]], HoldForm], "\",\"", 
+                 "\" \""}, "RowDefault"], "\"substitute \"", 
+               TemplateBox[{
+                 RowBox[{"u", "\[LongEqual]", 
+                   RowBox[{"cos", "(", "x", ")"}]}], "\" \""}, "RowDefault"], 
+               "\"and \"", 
+               TemplateBox[{
+                 RowBox[{
+                   RowBox[{"\[DifferentialD]", "u"}], "\[LongEqual]", 
+                   RowBox[{"-", 
+                    RowBox[{"sin", "(", "x", ")"}]}]}], "\"\[ThinSpace]\""}, 
+                "RowDefault"], 
+               TemplateBox[{
+                 RowBox[{"\[DifferentialD]", "x"}], "\":\""}, "RowDefault"]},
+              "RowDefault"],
+             StripOnInput->False,
+             LineColor->GrayLevel[0.3],
+             FrontFaceColor->GrayLevel[0.3],
+             BackFaceColor->GrayLevel[0.3],
+             GraphicsColor->GrayLevel[0.3],
+             FontColor->GrayLevel[0.3]],
+            LineIndent->0,
+            LinebreakAdjustments->{1, 89, 100, 0, 100}]},
+          {
+           TemplateBox[{"\" \"", "\"\[LongEqual] \"", 
+             RowBox[{
+               RowBox[{"x", " ", 
+                 RowBox[{"tan", "(", "x", ")"}]}], "-", 
+               RowBox[{
+                 RowBox[{"\[Integral]", 
+                   RowBox[{
+                    RowBox[{"-", 
+                    FractionBox["1", "u"]}], 
+                    RowBox[{"\[DifferentialD]", "u"}]}]}]}]}]},
+            "RowDefault"]}
+         },
+         AllowScriptLevelChange->False,
+         DefaultBaseStyle->"Column",
+         GridBoxAlignment->{"Columns" -> {{Left}}},
+         GridBoxItemSize->{
+          "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], "Column"]},
+      {
+       StyleBox[GridBox[{
+          {
+           StyleBox[
+            StyleBox[
+             TemplateBox[{"\"Factor \"", "\"out \"", "\"constants:\""},
+              "RowDefault"],
+             StripOnInput->False,
+             LineColor->GrayLevel[0.3],
+             FrontFaceColor->GrayLevel[0.3],
+             BackFaceColor->GrayLevel[0.3],
+             GraphicsColor->GrayLevel[0.3],
+             FontColor->GrayLevel[0.3]],
+            LineIndent->0,
+            LinebreakAdjustments->{1, 89, 100, 0, 100}]},
+          {
+           TemplateBox[{"\" \"", "\"\[LongEqual] \"", 
+             RowBox[{
+               RowBox[{"x", " ", 
+                 RowBox[{"tan", "(", "x", ")"}]}], "+", 
+               RowBox[{"\[Integral]", 
+                 RowBox[{
+                   FractionBox["1", "u"], 
+                   RowBox[{"\[DifferentialD]", "u"}]}]}]}]},
+            "RowDefault"]}
+         },
+         AllowScriptLevelChange->False,
+         DefaultBaseStyle->"Column",
+         GridBoxAlignment->{"Columns" -> {{Left}}},
+         GridBoxItemSize->{
+          "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], "Column"]},
+      {
+       StyleBox[GridBox[{
+          {
+           StyleBox[
+            StyleBox[
+             TemplateBox[{"\"The \"", "\"integral \"", "\"of \"", 
+               TemplateBox[{
+                 FractionBox["1", "u"], "\" \""}, "RowDefault"], "\"is \"", 
+               TemplateBox[{
+                 RowBox[{"log", "(", "u", ")"}], "\":\""}, "RowDefault"]},
+              "RowDefault"],
+             StripOnInput->False,
+             LineColor->GrayLevel[0.3],
+             FrontFaceColor->GrayLevel[0.3],
+             BackFaceColor->GrayLevel[0.3],
+             GraphicsColor->GrayLevel[0.3],
+             FontColor->GrayLevel[0.3]],
+            LineIndent->0,
+            LinebreakAdjustments->{1, 89, 100, 0, 100}]},
+          {
+           TemplateBox[{"\" \"", "\"\[LongEqual] \"", 
+             StyleBox[
+              RowBox[{
+                StyleBox[
+                 RowBox[{
+                   RowBox[{"log", "(", "u", ")"}], "+", 
+                   RowBox[{"x", " ", 
+                    RowBox[{"tan", "(", "x", ")"}]}]}], {
+                  GrayLevel[0], LinebreakAdjustments -> {1, 100, 1, 0, 100}, 
+                  LineIndent -> 0}], "+", 
+                StyleBox[
+                "\"constant\"", {
+                 Magnification -> 0.9 Inherited, FontFamily -> "Helvetica", 
+                  FontSize -> Inherited, 
+                  LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                  0}]}], {
+               GrayLevel[0.6], LinebreakAdjustments -> {1, 100, 1, 0, 100}, 
+               LineIndent -> 0}]},
+            "RowDefault"]}
+         },
+         AllowScriptLevelChange->False,
+         DefaultBaseStyle->"Column",
+         GridBoxAlignment->{"Columns" -> {{Left}}},
+         GridBoxItemSize->{
+          "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], "Column"]},
+      {
+       StyleBox[GridBox[{
+          {
+           StyleBox[
+            StyleBox[
+             TemplateBox[{"\"Substitute \"", "\"back \"", "\"for \"", 
+               TemplateBox[{
+                 RowBox[{"u", "\[LongEqual]", 
+                   RowBox[{"cos", "(", "x", ")"}]}], "\":\""}, "RowDefault"]},
+              "RowDefault"],
+             StripOnInput->False,
+             LineColor->GrayLevel[0.3],
+             FrontFaceColor->GrayLevel[0.3],
+             BackFaceColor->GrayLevel[0.3],
+             GraphicsColor->GrayLevel[0.3],
+             FontColor->GrayLevel[0.3]],
+            LineIndent->0,
+            LinebreakAdjustments->{1, 89, 100, 0, 100}]},
+          {
+           FrameBox[
+            StyleBox[GridBox[{
+               {
+                StyleBox[
+                 TemplateBox[{"\"Answer:\""},
+                  "RowDefault"],
+                 StripOnInput->False,
+                 FontFamily->"Helvetica",
+                 FontSize->12], "\[SpanFromLeft]"},
+               {"\<\"\"\>", 
+                TemplateBox[{"\" \"", "\"\[LongEqual] \"", 
+                  StyleBox[
+                   RowBox[{
+                    StyleBox[
+                    RowBox[{
+                    RowBox[{"x", " ", 
+                    RowBox[{"tan", "(", "x", ")"}]}], "+", 
+                    RowBox[{"log", "(", 
+                    RowBox[{"cos", "(", "x", ")"}], ")"}]}], {
+                    GrayLevel[0], LinebreakAdjustments -> {1, 100, 1, 0, 100},
+                     LineIndent -> 0}], "+", 
+                    StyleBox[
+                    "\"constant\"", {
+                    Magnification -> 0.9 Inherited, FontFamily -> "Helvetica",
+                     FontSize -> Inherited, 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}]}], {
+                    GrayLevel[0.6], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}]},
+                 "RowDefault"]}
+              },
+              AllowScriptLevelChange->False,
+              AutoDelete->False,
+              
+              GridBoxAlignment->{
+               "Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+              GridBoxItemSize->{"Columns" -> {2.5, Automatic}},
+              
+              GridBoxSpacings->{
+               "Columns" -> {2, 0, 3}, "Rows" -> {1.5, 1, 2}}], "Grid"],
+            Background->RGBColor[0.91, 0.98, 1],
+            FrameMargins->12,
+            FrameStyle->{
+              AbsoluteThickness[1], 
+              RGBColor[0.52, 0.76, 0.86]},
+            RoundingRadius->3,
+            StripOnInput->False]}
+         },
+         AllowScriptLevelChange->False,
+         DefaultBaseStyle->"Column",
+         GridBoxAlignment->{"Columns" -> {{Left}}},
+         GridBoxItemSize->{
+          "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], "Column"]}
+     },
+     AllowScriptLevelChange->False,
+     DefaultBaseStyle->"Column",
+     FrameStyle->GrayLevel[0.7],
+     GridBoxAlignment->{"Columns" -> {{Left}}},
+     GridBoxDividers->{
+      "Columns" -> {{False}}, "Rows" -> {False, {True}, False}},
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+     GridBoxSpacings->{"Columns" -> {{Automatic}}, "Rows" -> {{3}}}], 
+    "Column"],
+   TraditionalForm], "Output",
+  CellSize->{550, Automatic},
+  AutoStyleOptions->{"HighlightFormattingErrors"->False},
+  ScriptLevel->0,
+  NumberPoint->".",
+  RenderingOptions->{"3DRenderingMethod"->"BSPTreeOrDepthBuffer"},
+  FontFamily->"Times",
+  FontSize->14,
+  Background->None,
+  GraphicsBoxOptions->{DefaultAxesStyle->Directive[
+    GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 1, 
+    "GraphicsAxes"],
+  DefaultBaseStyle->{FontFamily -> "Times", "Graphics"},
+  DefaultFrameStyle->Directive[
+    GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 1, 
+    "GraphicsFrame"],
+  DefaultFrameTicksStyle->Directive[
+   FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"],
+  DefaultTicksStyle->Directive[
+   FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]},
+  Graphics3DBoxOptions->{
+  DefaultBaseStyle->{FontFamily -> "Times", "Graphics3D"}}]], "Output",
+ CellChangeTimes->{{3.842553642683737*^9, 3.8425536725951157`*^9}},
+ CellLabel->"Out[74]=",ExpressionUUID->"0c3a1003-a627-418e-bf5f-d9adb756aa9f"]
 }, Open  ]]
 },
 WindowToolbars->"EditBar",
@@ -4331,7 +4857,7 @@ Cell[24337, 625, 1351, 27, 66, "Input",ExpressionUUID->"83c94c03-f715-4cd8-9075-
 Cell[25691, 654, 1266, 27, 66, "Input",ExpressionUUID->"65b575e0-76e1-4573-9e6b-871638d77911",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.},
  InitializationCell->True],
-Cell[26960, 683, 30739, 864, 1872, "Input",ExpressionUUID->"d585563f-1dc3-4df3-afdd-54cd56814035",
+Cell[26960, 683, 30739, 864, 1932, "Input",ExpressionUUID->"d585563f-1dc3-4df3-afdd-54cd56814035",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.},
  InitializationCell->True],
 Cell[57702, 1549, 1474, 35, 226, "Input",ExpressionUUID->"f7bbd118-7a50-486d-a24d-280257406888",
@@ -4375,7 +4901,35 @@ Cell[116102, 3054, 28375, 730, 1616, "Output",ExpressionUUID->"aee0d0fb-2443-4c6
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[144514, 3789, 324, 8, 55, "Input",ExpressionUUID->"3d2694bf-64bd-4513-9fc0-0b6b2d4866aa"],
-Cell[144841, 3799, 18512, 477, 989, "Output",ExpressionUUID->"46aebecf-a5a7-40e3-83a9-fb0dabaf4329"]
+Cell[144841, 3799, 18512, 477, 966, "Output",ExpressionUUID->"46aebecf-a5a7-40e3-83a9-fb0dabaf4329"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[163390, 4281, 499, 11, 33, "Input",ExpressionUUID->"3fd63d19-b492-40f9-954f-de7439e799f6"],
+Cell[163892, 4294, 355, 8, 33, "Output",ExpressionUUID->"6a3403de-c698-417c-bb2d-b664eafbfe3f"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[164284, 4307, 305, 8, 29, "Input",ExpressionUUID->"f4490b36-9c43-4f62-86d5-1f40c0d4f260"],
+Cell[164592, 4317, 433, 12, 33, "Output",ExpressionUUID->"293c9709-e30f-4ef5-888b-312163d4c726"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[165062, 4334, 453, 13, 29, "Input",ExpressionUUID->"cf64f89d-6f2e-4a8d-8ab4-aa3ceeba1f7f"],
+Cell[165518, 4349, 288, 7, 33, "Output",ExpressionUUID->"608d7ede-0629-4b3d-b233-7d0d7fd9f80f"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[165843, 4361, 223, 4, 29, "Input",ExpressionUUID->"4bdc9787-d5d6-432d-9183-4757ef4d27a8"],
+Cell[166069, 4367, 198, 4, 33, "Output",ExpressionUUID->"17ed0307-d6fb-4a68-a068-29c6a3703dd0"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[166304, 4376, 348, 8, 29, "Input",ExpressionUUID->"32a93fcb-28a6-49c4-8358-7f728976edd1"],
+Cell[166655, 4386, 288, 7, 33, "Output",ExpressionUUID->"a9e03bd5-4854-4644-9fa3-ae0f2e5eb058"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[166980, 4398, 227, 4, 30, "Input",ExpressionUUID->"6e0209ee-aa47-4817-99fb-71ad8afdf3e6"],
+Cell[167210, 4404, 202, 4, 34, "Output",ExpressionUUID->"263db56d-282d-499d-bada-af23b84f2f4c"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[167449, 4413, 295, 6, 33, "Input",ExpressionUUID->"87b55585-432a-4b09-834c-245f23791809"],
+Cell[167747, 4421, 15254, 381, 811, "Output",ExpressionUUID->"0c3a1003-a627-418e-bf5f-d9adb756aa9f"]
 }, Open  ]]
 }
 ]
